@@ -5,7 +5,7 @@ End-to-End Machine Learning Project with Deployment
 This project predicts customer churn for a telecom company using machine learning. It follows the complete data science lifecycle from exploratory analysis to production deployment.
 
 ### Live Deployment
-API Documentation: https://your-app-name.onrender.com/docs (Update after deployment)
+API Documentation: https://telecom-churn-api.onrender.com/docs
 
 ### Business Problem
 Telecom companies face high customer churn rates. This solution helps identify at-risk customers for proactive retention strategies, potentially saving millions in lost revenue.
