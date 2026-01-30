@@ -18,6 +18,9 @@ def track_experiment(model, model_name, X_train, X_test, Y_train, Y_test, params
     - params: Dictionary of model settings (e.g., {'max_iter': 1000})
     """
     
+ ========== ADD THIS INSIDE HERE TOO JUST TO MAKE SURE IT SAVES ==========
+    mlflow.set_tracking_uri("sqlite:///mlflow.db")
+    
     #  START tracking a new "experiment run"
     # Everything inside this block gets logged to MLflow
     with mlflow.start_run(run_name=model_name):
