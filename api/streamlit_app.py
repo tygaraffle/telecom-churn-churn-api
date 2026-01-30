@@ -52,7 +52,7 @@ total = st.number_input("Total Charges", 0.0, 10000.0, tenure * monthly)
 
 # Predict button
 st.markdown("---")
-if st.button("🔮 Predict Churn", type="primary"):
+if st.button(" Predict Churn", type="primary"):
     
     # Prepare data for your FastAPI
     customer_data = {
@@ -119,12 +119,3 @@ if st.button("🔮 Predict Churn", type="primary"):
         except:
             st.error("Could not connect to API")
 
-# Sidebar info
-with st.sidebar:
-    st.write("**About**")
-    st.write("Uses your FastAPI with the Kaggle dataset")
-    st.write("Model: Random Forest")
-    st.write("Accuracy: 86%")
-    st.write("---")
-    st.write("**API URL:**")
-    st.code("https://telecom-churn-api.onrender.com")
