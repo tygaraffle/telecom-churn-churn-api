@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/User/Desktop/Data Science Projects/3)Telecome-churn-prediction
+  proj/notebooks/mlruns/0/models/m-c37dbf7b63e14913b73815a6de22c022/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 3.8.1
+model_id: m-c37dbf7b63e14913b73815a6de22c022
+model_size_bytes: 6092271
+model_uuid: m-c37dbf7b63e14913b73815a6de22c022
+prompts: null
+run_id: c71ca78e1a594672a6829728e46b897f
+utc_time_created: '2026-01-27 12:28:25.638808'

@@ -1,0 +1,39 @@
+# .dockerignore
+# Files/folders Docker should NOT copy into the image
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Data files (if any)
+data/
+*.csv
+*.pkl  
+!models/*.pkl  #Ignore all .pkl Except this one
+
+# Logs
+*.log
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# OS files
+.DS_Store
+Thumbs.db

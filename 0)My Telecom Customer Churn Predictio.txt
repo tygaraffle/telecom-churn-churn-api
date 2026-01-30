@@ -1,0 +1,22 @@
+My Telecom Customer Churn Prediction Project:
+Business Problem (this goes in your README)
+A telecom company wants to identify customers who are likely to churn so that proactive retention strategies can be applied.
+
+Because it's expenisive to get new customers and it's and cheaper to keep existing customers by offering discounts, improve service, Call the customer, retain revenue.
+
+THIS IS A REAL BUSINESS PROBLEM.
+
+CHURN = LOSE MONEY.
+
+What recruiters will LOVE about this project: “I built an end-to-end churn prediction system.
+I cleaned raw telecom data, engineered features, trained and evaluated multiple models, handled class imbalance, and deployed the final pipeline as a FastAPI service.”
+
+Why handling class imbalance is so ***IMP***:
+Handling class imbalance in a Data Science/Machine Learning (DS/ML) customer churn prediction project means implementing specific techniques to prevent the machine learning model from becoming biased towards the majority class (active/loyal customers) and ignoring the minority class (those who churn). 
+In most real-world scenarios, the number of customers who churn is far smaller (e.g., 5-10%) than those who stay, creating an imbalanced dataset. Without handling this, a model could achieve 90% accuracy simply by predicting that no one will ever churn, which defeats the purpose of the project. 
+---------------------------------------------------------------------
+
+Think of this project as 3 layers:
+1️⃣ Data Science – understand why customers churn
+2️⃣ Machine Learning – predict who will churn
+3️⃣ Engineering – make the model usable (API)
